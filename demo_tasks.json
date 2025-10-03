@@ -1,32 +1,26 @@
-{
-  "tasks": [
-    {
-      "task_id": "TASK_20251003_132059",
-      "title": "เขียนเอกสาร API",
-      "description": "เขียนเอกสาร API สำหรับระบบ Task Manager",
-      "due_date": "2025-10-06",
-      "completed": false,
-      "created_at": "2025-10-03T13:20:59.959900",
-      "updated_at": "2025-10-03T13:20:59.959901"
-    },
-    {
-      "task_id": "TASK_20251003_132059",
-      "title": "ทดสอบระบบ",
-      "description": "ทำการทดสอบระบบ Task Manager อย่างครอบคลุม",
-      "due_date": "2025-10-08",
-      "completed": false,
-      "created_at": "2025-10-03T13:20:59.967053",
-      "updated_at": "2025-10-03T13:20:59.967054"
-    },
-    {
-      "task_id": "TASK_20251003_132059",
-      "title": "ออกแบบ UI",
-      "description": "ออกแบบ User Interface สำหรับ Task Manager",
-      "due_date": "2025-10-02",
-      "completed": true,
-      "created_at": "2025-10-03T13:20:59.971647",
-      "updated_at": "2025-10-03T13:20:59.976194"
-    }
-  ],
-  "last_updated": "2025-10-03T13:20:59.982366"
-}
+[
+  {
+    "task_id": "TASK001",
+    "title": "เรียน Python Programming",
+    "description": "เรียน Python สำหรับการพัฒนาแอปพลิเคชัน",
+    "due_date": "2024-12-31",
+    "completed": true,
+    "created_at": "2025-10-03 14:27:44"
+  },
+  {
+    "task_id": "TASK002",
+    "title": "ทำโปรเจกต์ Task Manager",
+    "description": "พัฒนาโปรเจกต์สุดท้ายสำหรับวิชา Programming",
+    "due_date": "2024-12-25",
+    "completed": false,
+    "created_at": "2025-10-03 14:27:44"
+  },
+  {
+    "task_id": "TASK003",
+    "title": "เตรียมสอบ Final",
+    "description": "ทบทวนเนื้อหาสำหรับการสอบปลายภาค",
+    "due_date": "2024-12-20",
+    "completed": false,
+    "created_at": "2025-10-03 14:27:44"
+  }
+]
