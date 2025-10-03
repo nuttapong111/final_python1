@@ -1,26 +1,26 @@
 [
   {
-    "task_id": "TASK001",
-    "title": "เรียน Python Programming",
-    "description": "เรียน Python สำหรับการพัฒนาแอปพลิเคชัน",
-    "due_date": "2024-12-31",
+    "id": "demo001",
+    "title": "ประชุมทีมพัฒนา",
+    "description": "ประชุมรายสัปดาห์เพื่ออัปเดตความคืบหน้าโปรเจกต์",
+    "due_date": "2024-01-15",
+    "completed": false,
+    "created_at": "2024-01-10 09:00:00"
+  },
+  {
+    "id": "demo002", 
+    "title": "ส่งรายงานประจำเดือน",
+    "description": "จัดทำและส่งรายงานผลการดำเนินงานประจำเดือน",
+    "due_date": "2024-01-20",
     "completed": true,
-    "created_at": "2025-10-03 14:27:44"
+    "created_at": "2024-01-05 14:30:00"
   },
   {
-    "task_id": "TASK002",
-    "title": "ทำโปรเจกต์ Task Manager",
-    "description": "พัฒนาโปรเจกต์สุดท้ายสำหรับวิชา Programming",
-    "due_date": "2024-12-25",
+    "id": "demo003",
+    "title": "อัปเดตเอกสาร API",
+    "description": "อัปเดตเอกสาร API สำหรับนักพัฒนาทีมอื่น",
+    "due_date": "2024-01-18",
     "completed": false,
-    "created_at": "2025-10-03 14:27:44"
-  },
-  {
-    "task_id": "TASK003",
-    "title": "เตรียมสอบ Final",
-    "description": "ทบทวนเนื้อหาสำหรับการสอบปลายภาค",
-    "due_date": "2024-12-20",
-    "completed": false,
-    "created_at": "2025-10-03 14:27:44"
+    "created_at": "2024-01-12 11:15:00"
   }
 ]
