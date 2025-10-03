@@ -1,10 +1,16 @@
-# Python Task Manager Requirements
-# ไฟล์ requirements.txt สำหรับ Python Task Manager
+# Python Task Manager Dependencies
+# ระบบจัดการงานประจำวันด้วย Python
 
-# ไม่มี dependencies เพิ่มเติม เนื่องจากใช้เฉพาะ standard library
-# Python 3.7+ ขึ้นไป
+# Python Standard Library (ไม่ต้องติดตั้งเพิ่ม)
+# - json: สำหรับการจัดการข้อมูล JSON
+# - os: สำหรับการจัดการไฟล์และโฟลเดอร์
+# - datetime: สำหรับการจัดการวันที่และเวลา
+# - typing: สำหรับ type hints
 
-# Optional: สำหรับการพัฒนา
-# pytest>=7.0.0  # สำหรับการทดสอบ
-# black>=22.0.0   # สำหรับการจัดรูปแบบโค้ด
-# flake8>=4.0.0   # สำหรับการตรวจสอบโค้ด
+# ไม่มี external dependencies ที่จำเป็น
+# โปรแกรมใช้เฉพาะ Python Standard Library
+
+# สำหรับการพัฒนา (ไม่บังคับ)
+# pytest>=6.0.0          # สำหรับการทดสอบ
+# black>=21.0.0           # สำหรับการจัดรูปแบบโค้ด
+# flake8>=3.8.0           # สำหรับการตรวจสอบโค้ด
