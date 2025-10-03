@@ -124,8 +124,6 @@ def test_validation():
             os.unlink(temp_file)
 
 
-<<<<<<< HEAD
-=======
 def test_search_functionality():
     """ทดสอบฟังก์ชันการค้นหา"""
     print("🧪 Testing Search Functionality...")
@@ -156,7 +154,6 @@ def test_search_functionality():
             os.unlink(temp_file)
 
 
->>>>>>> main
 def run_all_tests():
     """รันการทดสอบทั้งหมด"""
     print("🚀 Starting Task Manager Tests...")
@@ -167,10 +164,7 @@ def run_all_tests():
         test_task_serialization()
         test_task_manager()
         test_validation()
-<<<<<<< HEAD
-=======
         test_search_functionality()
->>>>>>> main
         
         print("=" * 50)
         print("🎉 All tests passed successfully!")
@@ -181,8 +175,4 @@ def run_all_tests():
 
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     run_all_tests()
-=======
-    run_all_tests()
->>>>>>> main
