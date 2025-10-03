@@ -1,0 +1,10 @@
+# Python Task Manager Requirements
+# ไฟล์ requirements.txt สำหรับ Python Task Manager
+
+# ไม่มี dependencies เพิ่มเติม เนื่องจากใช้เฉพาะ standard library
+# Python 3.7+ ขึ้นไป
+
+# Optional: สำหรับการพัฒนา
+# pytest>=7.0.0  # สำหรับการทดสอบ
+# black>=22.0.0   # สำหรับการจัดรูปแบบโค้ด
+# flake8>=4.0.0   # สำหรับการตรวจสอบโค้ด
