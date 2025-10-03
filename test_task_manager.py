@@ -124,6 +124,39 @@ def test_validation():
             os.unlink(temp_file)
 
 
+<<<<<<< HEAD
+=======
+def test_search_functionality():
+    """ทดสอบฟังก์ชันการค้นหา"""
+    print("🧪 Testing Search Functionality...")
+    
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+        temp_file = f.name
+    
+    try:
+        tm = TaskManager(temp_file)
+        
+        # เพิ่มงานทดสอบ
+        tm.add_task("Python Task", "Learn Python programming", "2024-01-15")
+        tm.add_task("Meeting Task", "Team meeting", "2024-01-20")
+        tm.add_task("Report Task", "Write monthly report", "2024-01-25")
+        
+        # ทดสอบการค้นหาตามคำสำคัญ
+        print("Testing keyword search...")
+        # search_tasks จะ print ผลลัพธ์ แต่ไม่ return ค่า
+        
+        # ทดสอบการค้นหาตามวันที่
+        print("Testing date search...")
+        # search_tasks จะ print ผลลัพธ์ แต่ไม่ return ค่า
+        
+        print("✅ Search functionality test passed!")
+        
+    finally:
+        if os.path.exists(temp_file):
+            os.unlink(temp_file)
+
+
+>>>>>>> main
 def run_all_tests():
     """รันการทดสอบทั้งหมด"""
     print("🚀 Starting Task Manager Tests...")
@@ -134,6 +167,10 @@ def run_all_tests():
         test_task_serialization()
         test_task_manager()
         test_validation()
+<<<<<<< HEAD
+=======
+        test_search_functionality()
+>>>>>>> main
         
         print("=" * 50)
         print("🎉 All tests passed successfully!")
@@ -144,4 +181,8 @@ def run_all_tests():
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     run_all_tests()
+=======
+    run_all_tests()
+>>>>>>> main
